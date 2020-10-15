@@ -1,0 +1,32 @@
+.recipe-container{
+  margin: 2em;
+  padding: 0;
+  flex-basis: 0;
+}
+
+.recipe-title{
+  color: white;
+  font-size: 2em;
+  min-width: 40vw;
+}
+
+.recipe-image{
+  size: auto;
+}
+
+.recipe-calories{
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+  min-width: 40vw;
+}
+
+.ingredient-list{
+  min-width: 40vw;
+}
+
+.ingredient-list-items{
+  color: white;
+  font-weight: 400;
+}
+
