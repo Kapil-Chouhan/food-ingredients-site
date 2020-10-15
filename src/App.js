@@ -9,8 +9,8 @@ const App = () => {
   const [button, setButton] = useState('chicken');
   
   useEffect( () => {
-    const appId = process.env.REACT_APP_RECIPE_API_ID;
-    const appKey = process.env.REACT_APP_RECIPE_API_KEY;
+    const appId = "c09738a3";
+    const appKey = "d23ab21bc81a1fab3a831bc2dbf91a34";
     const getRecipes = async () => {
       const res = await fetch(`https://api.edamam.com/search?q=${button}&app_id=${appId}&app_key=${appKey}`) ;
       const data = await res.json();
